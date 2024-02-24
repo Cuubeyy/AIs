@@ -82,4 +82,5 @@ class Connection:
 
 if __name__ == "__main__":
     nw = NeuralNetwork([2, 3, 2])
+
     print(nw.calculate_result([1, 2]))
